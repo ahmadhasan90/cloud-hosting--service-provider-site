@@ -1,0 +1,62 @@
+.docs-head {
+    background-color: #047aed;
+}
+
+.docs-head img{
+    width: 200px;
+    justify-self: flex-end;
+}
+
+.docs-main a{
+    color: black;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: flex-start;
+    gap: 30px;
+    margin: auto;
+    max-width: 1100px;
+}
+
+.container h3 {
+   font-size: 25px;
+   margin: 10px 0;
+
+}
+.container .card{
+    display:grid;
+    justify-items: flex-start;
+    padding: 3rem;
+    margin: 3rem 0;
+    
+}
+
+.container ul {
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.docs-main a:hover {
+    font-weight: bold;
+  }
+
+.container nav li {
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+    border-bottom: 1px rgb(59, 6, 145) solid;
+    align-self: flex-start;
+}
+
+.container >*:last-child {
+ justify-items: center;
+
+}
+
+code,
+pre {
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+}
